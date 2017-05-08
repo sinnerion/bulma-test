@@ -1,0 +1,27 @@
+.main-nav {
+  position: fixed;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  background: darken($main-bg, 25%);
+  transition: left .5s;
+}
+
+.main-nav-list {
+  padding: 20px 0 0;
+  position: relative;
+  height: 100%;
+  li {
+    width: 100%;
+  }
+  a {
+    display: block;
+    border-radius: 0;
+    padding: 10px 20px;
+  }
+  &_btn {
+    position: absolute;
+    bottom: 20px;
+  }
+}

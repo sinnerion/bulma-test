@@ -1,0 +1,20 @@
+body {
+  background: $main-bg;
+  color: $main-txt;
+}
+
+#content {
+  transition: margin-left .5s;
+}
+
+.main-pic {
+  padding: 20px;
+  font-size: 0;
+  img {
+    max-width: 100%;
+  }
+}
+
+.button.btn-main {
+  width: 100%;
+}

@@ -1,0 +1,26 @@
+.side-chat {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: lighten($main-bg, 5%);
+  overflow-x: hidden;
+  transition: .5s;
+  .panel label,
+  .panel a {
+    color: $main-txt;
+  }
+}
+
+.side-chat-open {
+  padding: 20px 15px; /* Place content 60px from the top */
+  width: 250px;
+}
+
+.side-chat_close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
